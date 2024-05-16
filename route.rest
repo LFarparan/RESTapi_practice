@@ -1,0 +1,30 @@
+GET http://127.0.0.1:3000/subscribers
+
+
+###
+GET http://127.0.0.1:3000/subscribers/64448b5844ae93398f2cd5cf
+
+
+###
+POST http://127.0.0.1:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "leoNard",
+    "subscriberToChannel": "WDS"
+
+}
+
+###
+DELETE http://127.0.0.1:3000/subscribers/66448aa646814f06faea1ede
+
+
+###
+PATCH http://127.0.0.1:3000/subscribers/66448b5844ae93398f2cd5cf
+Content-Type: application/json
+
+{
+    "name": "NewLeo"
+}
+
+
